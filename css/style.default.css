@@ -2607,12 +2607,12 @@ body {
 }
 
 a {
-  color: #796AEE;
+  color: #4C72B7;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #3b25e6;
+  color: #003699;
   text-decoration: underline;
 }
 

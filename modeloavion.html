@@ -34,8 +34,8 @@
               <!-- Navbar Header-->
               <div class="navbar-header">
                 <!-- Navbar Brand --><a href="index.html" class="navbar-brand">
-                  <div class="brand-text brand-big"><span>Air</span><strong>UCAB</strong></div>
-                  <div class="brand-text brand-small"><strong>AU</strong></div></a>
+                  <div class="brand-text brand-big"><span>100%</span><strong>Atencion</strong></div>
+                  <div class="brand-text brand-small"><strong>100A</strong></div></a>
                 <!-- Toggle Button--><a id="toggle-btn" href="#" class="menu-btn active"><span></span><span></span><span></span></a>
               </div>
               <!-- Navbar Menu -->
@@ -55,8 +55,8 @@
           <div class="sidebar-header d-flex align-items-center">
             <div class="avatar"><img src="img/avatar-1.jpg" alt="..." class="img-fluid rounded-circle"></div>
             <div class="title">
-              <h1 class="h4">Abuelo Fdz</h1>
-              <p>Director Operaciones</p>
+              <h1 class="h4">Hulk Kellwenn</h1>
+              <p>Paciente</p>
             </div>
           </div>
           <!-- Sidebar Navidation Menus-->
@@ -66,7 +66,7 @@
             <li> <a href="proveedores.html"> <i class="fa fa-truck" aria-hidden="true"></i>Proveedores</a></li>
             <li> <a href="ventas.html"> <i class="fa fa-paper-plane-o" aria-hidden="true"></i>Ventas </a></li>
             <li> <a href="compras.html"> <i class="fa fa-cog" aria-hidden="true"></i>Compras </a></li>
-            <li class="active"> <a href="modeloavion.html"> <i class="fa fa-plane" aria-hidden="true"></i> Aviones </a></li>
+            <li class="active"> <a href="modeloavion.html"> <i class="fa fa-money" aria-hidden="true"></i> Pagos </a></li>
           </ul>
           
         </nav>
@@ -78,14 +78,7 @@
             <div class="container-fluid">
 
             <input id="tab0" type="radio" name="tabs" class="no-display" checked>
-            <label for="tab0" class="label"><i class="fa fa-plane" aria-hidden="true"></i> Modelos Aviones</label>
-
-            <input id="tab1" type="radio" name="tabs" class="no-display">
-            <label for="tab1" class="label"><i class="fa fa-rocket" aria-hidden="true"></i> Submodelos Aviones</label>
-              
-            <input id="tab2" type="radio" name="tabs" class="no-display">
-            <label for="tab2" class="label"><i class="fa fa-fighter-jet" aria-hidden="true"></i> Distribucion</label> 
-     
+            <label for="tab0" class="label"><i class="fa fa-money" aria-hidden="true"></i> Historia Pagos</label>
             
             <!-- TAB Modelos Aviones -->
 
@@ -98,43 +91,31 @@
                 <div class="card col-lg-12">
                   <div class="row">
                   <div class="card-body col-lg-5">
-                    <h3 class="h4">MOSTRAR SOLO AVIONES QUE</h3>
+                    <h3 class="h4">MOSTRAR SOLO PAGOS QUE</h3>
                     <form class="form-horizontal">
                       <div class="row">
-                        <label class="col-sm-3 form-control-label">Modelo</label>
+                        <label class="col-sm-3 form-control-label">Mes</label>
                         <div class="col-sm-9 select">
                           <select name="account" class="form-control">
-                            <option>option 1</option>
-                            <option>option 2</option>
-                            <option>option 3</option>
-                            <option>option 4</option>
+                            <option>Enero</option>
+                            <option>Febrero</option>
+                            <option>Marzo</option>
+                            <option>Abril</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <label class="col-sm-3 form-control-label">Status Pago</label>
+                        <div class="col-sm-9 select">
+                          <select name="account" class="form-control">
+                            <option>Pendiente</option>
+                            <option>Procesando</option>
+                            <option>Realizado</option>
                           </select>
                         </div>
 
                       </div>
-                      <div class="row">
-                        <label class="col-sm-3 form-control-label">Submodelo</label>
-                        <div class="col-sm-9 select">
-                          <select name="account" class="form-control">
-                            <option>option 1</option>
-                            <option>option 2</option>
-                            <option>option 3</option>
-                            <option>option 4</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <label class="col-sm-3 form-control-label">Distribucion</label>
-                        <div class="col-sm-9 select">
-                          <select name="account" class="form-control">
-                            <option>option 1</option>
-                            <option>option 2</option>
-                            <option>option 3</option>
-                            <option>option 4</option>
-                          </select>
-                        </div>
-                      </div>
-                                            
+                                                               
                     </form>
                   </div>
                   <div class=" card-body col-lg-4">
@@ -156,285 +137,141 @@
                 
                 <!-- TABLE STARTS -->
                 <div class="col-md-12">
-                   <div class="card">
-                      
-                      <div class="row">
-                        <div class="col-sm-10"></div>
-                        <div class="col-sm-2 pad-top">
-                          <button type="button" data-toggle="modal" data-target="#myModalModeloCrear"  class="btn btn-primary">
-                            <i class="fa fa-user-plus" aria-hidden="true"></i> Crear</button>
-                        </div>
-                      </div>
-                      
-                      <div class="card-body table-overflow">
-                         <table class="table table-striped table-sm table-hover pad-right">
-                            <thead>
-                               <tr>
-                                  <th class="text-center text-middle">ID</th>
-                                  <th class="text-center text-middle">NOMBRE</th>
-                                  <th class="text-center text-middle">LONGITUD</th>
-                                  <th class="text-center text-middle">ENVERGADURA</th>
-                                  <th class="text-center text-middle">ALTURA</th>
-                                  <th class="text-center text-middle">SUPERFICIE ALA</th>
-                                  <th class="text-center text-middle">FLECHA ALA</th>
-                                  <th class="text-center text-middle">PESO ATERRIZAJE MAX</th>
-                                  <th class="text-center text-middle">ALCANCE</th>
-                                  <th class="text-center text-middle">VELOCIDAD MAX</th>
-                                  <th class="text-center text-middle">SERVICIO TECHO</th>
-                                  <th class="text-center text-middle">REGIMEN ASCENSO</th>
-                                  <th class="text-center text-middle">N PASILLOS</th>
-                                  <th class="text-center text-middle">TIPO FUSELAJE</th>
-                                  <th class="text-center text-middle">ALTURA FUSELAJE</th>
-                                  <th class="text-center text-middle">ANCHO FUSELAJE</th>
-                                  <th class="text-center text-middle">ALTURA CABINA</th>
-                                  <th class="text-center text-middle">ANCHO CABINA</th>
-                                  <th class="text-center text-middle">VOLUMEN CARGA</th>
-                                  <th class="text-center text-middle">CAPACIDAD PILOTOS</th>
-                                  <th class="text-center text-middle">CAPACIDAD ASIENTOS</th>
-                                  <th class="text-center text-middle">DESPEGUE CARRERA</th>
-                                  <th class="text-center text-middle">TIEMPO ESTIMADO</th>
-                                  <th class="text-center">Accion</th>
-                               </tr>
-                            </thead>
-                            <tbody>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>174</td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalleModelo">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarModeloAvion">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>174</td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalleModelo">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarModeloAvion">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>174</td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalleModelo">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarModeloAvion">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>174</td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalleModelo">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarModeloAvion">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>174</td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalleModelo">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarModeloAvion">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>174</td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalleModelo">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarModeloAvion">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>20</td>
-                                  <td>155</td>
-                                  <td>174</td>
-                                  <td>325</td>
-                                  <td>174</td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalleModelo">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarModeloAvion">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                            </tbody>
-                         </table>
-                         
-                      </div>
-                   </div>
-                </div>
-                <!-- TABLE ENDS -->
+                  <div class="card">
+                     
+                     <div class="row">
+                       <div class="col-sm-10"></div>
+                       <div class="col-sm-2 pad-top">
+                         <button type="button" data-toggle="modal" data-target="#myModalDistribucionCrear"  class="btn btn-primary">
+                           <i class="fa fa-credit-card" aria-hidden="true"></i> Realizar Pago</button>
+                       </div>
+                     </div>
+                     
+                     <div class="card-body table-overflow">
+                        <table class="table table-striped table-sm table-hover pad-right">
+                           <thead>
+                              <tr>
+                                 <th class="text-center text-middle">METODO DE PAGO</th>
+                                 <th class="text-center text-middle">ID</th>
+                                 <th class="text-center text-middle">FECHA</th>
+                                 <th class="text-center text-middle">DOCTOR</th>
+                                 <th class="text-center text-middle">STATUS</th>
+                                 <th class="text-center">Accion</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Tarjeta de credito <i class="fa fa-credit-card-alt" aria-hidden="true"></i> </td>
+                                 <td>001</td>
+                                 <td>7 septiembre 2015</td>
+                                 <td>Dr. Lecter</td>
+                                 <td>OK <i class="fa fa-check" aria-hidden="true"></i> </td>
+                                 <td class="text-center">
+                                   <a href="" data-toggle="modal" data-target="#myModalDetalleDistribucion">
+                                     <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                   </a>
+                                   <a href="" data-toggle="modal" data-target="#myModalBorrarDistribucion">   
+                                     <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                   </a>
+                                 </td>
+                              </tr>
+                              <tr>
+                                <td>Tarjeta de credito <i class="fa fa-credit-card-alt" aria-hidden="true"></i> </td>
+                                <td>001</td>
+                                <td>7 septiembre 2015</td>
+                                <td>Dr. Lecter</td>
+                                <td>OK <i class="fa fa-check" aria-hidden="true"></i> </td>
+                                <td class="text-center">
+                                  <a href="" data-toggle="modal" data-target="#myModalDetalleDistribucion">
+                                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                  </a>
+                                  <a href="" data-toggle="modal" data-target="#myModalBorrarDistribucion">   
+                                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                  </a>
+                                </td>
+                             </tr>
+                             <tr>
+                              <td>Tarjeta de credito <i class="fa fa-credit-card-alt" aria-hidden="true"></i> </td>
+                              <td>001</td>
+                              <td>7 septiembre 2015</td>
+                              <td>Dr. Lecter</td>
+                              <td>OK <i class="fa fa-check" aria-hidden="true"></i> </td>
+                              <td class="text-center">
+                                <a href="" data-toggle="modal" data-target="#myModalDetalleDistribucion">
+                                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                </a>
+                                <a href="" data-toggle="modal" data-target="#myModalBorrarDistribucion">   
+                                  <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Tarjeta de credito <i class="fa fa-credit-card-alt" aria-hidden="true"></i> </td>
+                              <td>001</td>
+                              <td>7 septiembre 2015</td>
+                              <td>Dr. Lecter</td>
+                              <td>OK <i class="fa fa-check" aria-hidden="true"></i> </td>
+                              <td class="text-center">
+                                <a href="" data-toggle="modal" data-target="#myModalDetalleDistribucion">
+                                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                </a>
+                                <a href="" data-toggle="modal" data-target="#myModalBorrarDistribucion">   
+                                  <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                </a>
+                              </td>
+                          </tr>
+                          <tr>
+                            <td>Tarjeta de credito <i class="fa fa-credit-card-alt" aria-hidden="true"></i> </td>
+                            <td>001</td>
+                            <td>7 septiembre 2015</td>
+                            <td>Dr. Lecter</td>
+                            <td>OK <i class="fa fa-check" aria-hidden="true"></i> </td>
+                            <td class="text-center">
+                              <a href="" data-toggle="modal" data-target="#myModalDetalleDistribucion">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                              </a>
+                              <a href="" data-toggle="modal" data-target="#myModalBorrarDistribucion">   
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                              </a>
+                            </td>
+                           </tr>
+                           <tr>
+                            <td>Tarjeta de credito <i class="fa fa-credit-card-alt" aria-hidden="true"></i> </td>
+                            <td>001</td>
+                            <td>7 septiembre 2015</td>
+                            <td>Dr. Lecter</td>
+                            <td>OK <i class="fa fa-check" aria-hidden="true"></i> </td>
+                            <td class="text-center">
+                              <a href="" data-toggle="modal" data-target="#myModalDetalleDistribucion">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                              </a>
+                              <a href="" data-toggle="modal" data-target="#myModalBorrarDistribucion">   
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                              </a>
+                            </td>
+                            </tr>
+                            <tr>
+                              <td>Tarjeta de credito <i class="fa fa-credit-card-alt" aria-hidden="true"></i> </td>
+                              <td>001</td>
+                              <td>7 septiembre 2015</td>
+                              <td>Dr. Lecter</td>
+                              <td>OK <i class="fa fa-check" aria-hidden="true"></i> </td>
+                              <td class="text-center">
+                                <a href="" data-toggle="modal" data-target="#myModalDetalleDistribucion">
+                                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                </a>
+                                <a href="" data-toggle="modal" data-target="#myModalBorrarDistribucion">   
+                                  <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                </a>
+                              </td>
+                          </tr>  
+                           </tbody>
+                        </table>
+                        
+                     </div>
+                  </div>
+               </div>
+               <!-- TABLE ENDS -->
 
             </section>
             <!-- TAB Modelos Aviones ENDS -->
@@ -2347,7 +2184,7 @@
                             <div role="document" class="modal-dialog modal-xl">
                                <div class="modal-content">
                                   <div class="modal-header">
-                                     <h4 id="exampleModalLabel" class="modal-title">DISTRIBUCION AVION</h4>
+                                     <h4 id="exampleModalLabel" class="modal-title">PAGO</h4>
                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
                                   </div>
                                   <div class="modal-body">
@@ -2361,64 +2198,51 @@
 
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
-                                              <h3>Modelo Avion</h3>
+                                              <h3>Metodo de Pago</h3>
                                             </label>
                                             <div class="col-sm-9 select">
                                               <select name="account" class="form-control">
-                                                <option>AU80</option>
-                                                <option>AU90</option>
-                                                <option>AU98</option>
+                                                <option>Tarjeta de Credito</option>
+                                                <option>Tarjeta de Debito</option>
+                                                <option>PayPal</option>
+                                                <option>Transferencia</option>
                                               </select>
                                             </div>
                                           </div>
+                                          
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
-                                              <h3>ID</h3>
-                                            </label>
-                                            <div class="col-sm-9">
-                                              <input type="text" disabled="" placeholder="No modificable" class="form-control">
-                                            </div>
-                                          </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>Nombre</h3>
+                                              <h3>Nombre Tarjeta</h3>
                                             </label>  
                                             <div class="col-sm-9">
-                                              <input type="text" placeholder="Introduzca Nombre" class="form-control">
+                                              <input type="text" placeholder="Introduzca Nombre del Tarjetahabitante" class="form-control">
                                             </div>
                                           </div>
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
-                                              <h3>Numero Clases</h3>
+                                              <h3>Numero Tarjeta</h3>
                                             </label>  
                                             <div class="col-sm-9">
-                                              <input type="text" placeholder="Introduzca Numero Clases" class="form-control">
+                                              <input type="text" placeholder="Introduzca Numero exacto como en la tarjeta" class="form-control">
                                             </div>
                                           </div>
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
-                                              <h3>Capacidad Pasajeros</h3>
+                                              <h3>Fecha de Vencimiento</h3>
                                             </label>  
                                             <div class="col-sm-9">
-                                              <input type="text" placeholder="Introduzca Capacidad Pasajeros" class="form-control">
+                                              <input type="text" placeholder="Introduzca Fecha de Vencimiento" class="form-control">
                                             </div>
                                           </div>
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
-                                              <h3>Distancia Asientos</h3>
+                                              <h3>CVV</h3>
                                             </label>  
                                             <div class="col-sm-9">
-                                              <input type="text" placeholder="Introduzca Distancia Asientos" class="form-control">
+                                              <input type="text" placeholder="Introduzca los 3 digitos de la parte trasera" class="form-control">
                                             </div>
                                           </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>Acho Asientos</h3>
-                                            </label>  
-                                            <div class="col-sm-9">
-                                              <input type="text" placeholder="Introduzca Ancho Asientos" class="form-control">
-                                            </div>
-                                          </div>
+
                                           
                                           
 
@@ -2432,7 +2256,7 @@
                                               <h3>Nota</h3>
                                             </label>
                                             <div class="col-sm-9">
-                                              <input type="text" placeholder="Aqui puedes escribir..." class="form-control form-control-lg" rows="4" cols="50">
+                                              <input type="text" placeholder="Aqui puedes escribir nota a tu doctor..." class="form-control form-control-lg" rows="4" cols="50">
                                             </div>
                                           </div>
 
@@ -2448,7 +2272,7 @@
                                   </div>
                                   <div class="modal-footer">
                                      <button type="button" data-dismiss="modal" class="btn btn-secondary">Cerrar</button>
-                                     <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                                     <button type="button" class="btn btn-primary">Proceder</button>
                                   </div>
                                </div>
                             </div>
@@ -2656,7 +2480,7 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-6">
-                  <p>AirUCAB &copy; 2017-2018</p>
+                  <p>100%Atencion &copy; 2018-2019</p>
                 </div>
                 <div class="col-sm-6 text-right">
                   <p>Diseño por <a href="" class="external">AK</a></p>

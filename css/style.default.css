@@ -367,7 +367,7 @@ button, input {
 * ==========================================================
 */
 nav.side-navbar {
-  background: #362E85;
+  background: #003699;
   min-width: 250px;
   max-width: 250px;
   color: #fff;
@@ -1717,7 +1717,7 @@ input.input-material {
 }
 
 input.input-material:focus {
-  border-color: #796AEE;
+  border-color: #005BFF;
 }
 
 input.input-material ~ label {
@@ -1841,7 +1841,7 @@ section.forms .line {
   height: 100%;
   display: block;
   z-index: -1;
-  background: url(../img/bg.jpg);
+  background: url(../img/fondo_login.jpg);
   background-size: cover;
   background-position: center center;
   -webkit-filter: blur(10px);
@@ -1877,7 +1877,7 @@ section.forms .line {
 }
 
 .login-page .form-holder .info {
-  background: rgba(25, 33, 56, 0.9);
+  background: rgba(0,54,153, 0.8);
   color: #fff;
 }
 
@@ -1911,7 +1911,7 @@ section.forms .line {
 
 .login-page .form-holder .form a.forgot-pass, .login-page .form-holder .form a.signup {
   font-size: 0.9em;
-  color: #786CE9;
+  color: #005BFF;;
 }
 
 .login-page .form-holder .form small {
@@ -2105,8 +2105,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-primary {
   color: #fff;
-  background-color: #423A9E;
-  border-color: #423A9E;
+  background-color: #005BFF;
+  border-color: #005BFF;
 }
 
 .btn-block {
@@ -2116,8 +2116,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #786CE9;
-  border-color: #786CE9;
+  background-color:  #00256B;
+  border-color:  #00256B;
 }
 
 .btn-primary:focus, .btn-primary.focus {

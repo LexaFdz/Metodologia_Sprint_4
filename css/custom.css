@@ -32,15 +32,15 @@
 }
 
 .label:hover {
-  color: #786CE9;
+  color: #0051E6;
   cursor: pointer; 
 }
 
 input:checked + .label {
   background: #fff;
   color: #555;
-  border: 1px solid #363082;
-  border-top: 6px solid #786CE9;
+  border: 1px solid #002B7A;
+  border-top: 6px solid #0051E6;
   border-bottom: 1px solid #F9FBFC; 
 }
 

@@ -397,7 +397,7 @@ nav.side-navbar a[data-toggle="collapse"]::before {
 }
 
 nav.side-navbar a[aria-expanded="true"] {
-  background: #786CE9;
+  background:  #0051E6;
 }
 
 nav.side-navbar a[aria-expanded="true"]::before {
@@ -456,17 +456,17 @@ nav.side-navbar ul a {
 }
 
 nav.side-navbar ul a:hover {
-  background: #796AEE;
-  border-left: 4px solid #3b25e6;
+  background: #0051E6;
+  border-left: 4px solid #002B7A;
   color: #fff;
 }
 
 nav.side-navbar ul li.active a {
-  background: #786CE9;
+  background: #002B7A;
 }
 
 nav.side-navbar ul li.active a:hover {
-  background: #796AEE;
+  background:  #0051E6;
 }
  
 nav.side-navbar ul ul {
@@ -475,7 +475,7 @@ nav.side-navbar ul ul {
 
 nav.side-navbar ul ul a {
   padding-left: 50px;
-  background: #786CE9;
+  background:  #0051E6;
 }
 
 nav.side-navbar.shrinked {

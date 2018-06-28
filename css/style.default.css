@@ -468,7 +468,7 @@ nav.side-navbar ul li.active a {
 nav.side-navbar ul li.active a:hover {
   background:  #0051E6;
 }
- 
+
 nav.side-navbar ul ul {
   padding: 0;
 }
@@ -1973,8 +1973,8 @@ STYLE SWITCHER FOR DEMO
   color: #495057;
 }
 
-/* ========================================= 
-   THEMING OF BOOTSTRAP COMPONENTS           
+/* =========================================
+   THEMING OF BOOTSTRAP COMPONENTS
    ========================================= */
 /*
  * 1. NAVBAR
@@ -2595,7 +2595,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 /*
- * 3. TYPE  
+ * 3. TYPE
  */
 body {
   font-family: "Poppins", sans-serif;
@@ -2975,6 +2975,52 @@ a.text-light:focus, a.text-light:hover {
 
 a.text-dark:focus, a.text-dark:hover {
   color: #1d2124 !important;
+}
+
+.send{
+    padding-bottom: 20px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.send>.row{
+    margin-top: 5px;
+}
+
+.footer-send{
+    border-top: 1px solid #bbb;
+    padding: 15px;
+    padding-top: 25px;
+}
+
+div.col-sm-11.chat-input input{
+    width: 100%;
+}
+
+div.mensaje-envio{
+    padding-right: 25px;
+    text-align: right;
+}
+
+div.mensaje-envio span{
+    border: 1px solid #bbb;
+    padding: 20px;
+    margin-right: 8px;
+    max-width: 100%;
+    text-align: right;
+}
+
+div.mensaje-recepcion{
+    padding-left: 25px;
+    text-align: left;
+}
+
+div.mensaje-recepcion span{
+    border: 1px solid #bbb;
+    padding: 20px;
+    margin-left: 8px;
+    max-width: 100%;
+    text-align: left;
 }
 
 /*  Firmado por Alexander K. Fdz (AK) */

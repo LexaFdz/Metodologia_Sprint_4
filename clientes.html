@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AirUCAB - Main</title>
+    <title>100% Atencion - Mensajeria</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -29,19 +29,19 @@
       <!-- Main Navbar-->
       <header class="header">
         <nav class="navbar">
-          
+
           <div class="container-fluid">
             <div class="navbar-holder d-flex align-items-center justify-content-between">
               <!-- Navbar Header-->
               <div class="navbar-header">
                 <!-- Navbar Brand --><a href="index.html" class="navbar-brand">
-                  <div class="brand-text brand-big"><span>Air</span><strong>UCAB</strong></div>
-                  <div class="brand-text brand-small"><strong>AU</strong></div></a>
+                  <div class="brand-text brand-big"><span>100%</span><strong>Atencion</strong></div>
+                  <div class="brand-text brand-small"><strong>100%</strong></div></a>
                 <!-- Toggle Button--><a id="toggle-btn" href="#" class="menu-btn active"><span></span><span></span><span></span></a>
               </div>
               <!-- Navbar Menu -->
               <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
-                
+
                 <!-- Logout    -->
                 <li class="nav-item"><a href="login.html" class="nav-link logout">Cerrar Sesion<i class="fa fa-sign-out"></i></a></li>
               </ul>
@@ -63,31 +63,31 @@
           <!-- Sidebar Navidation Menus-->
           <ul class="list-unstyled">
             <li> <a href="empleados.html"><i class="icon-man-people-streamline-user"></i>Empleados</a></li>
-            <li class="active"> <a href="clientes.html"> <i class="fa fa-address-book-o" aria-hidden="true"></i>Clientes</a></li>
+            <li class="active"> <a href="clientes.html"> <i class="fa fa-address-book-o" aria-hidden="true"></i>Mensajeria</a></li>
             <li> <a href="proveedores.html"> <i class="fa fa-truck" aria-hidden="true"></i>Proveedores</a></li>
             <li> <a href="ventas.html"> <i class="fa fa-paper-plane-o" aria-hidden="true"></i>Ventas </a></li>
             <li> <a href="compras.html"> <i class="fa fa-cog" aria-hidden="true"></i>Compras </a></li>
             <li> <a href="modeloavion.html"> <i class="fa fa-plane" aria-hidden="true"></i> Aviones </a></li>
           </ul>
-          
+
         </nav>
         <div class="content-inner">
-          
-          
+
+
           <!-- Seccion de diferentes TABS -->
           <section>
             <div class="container-fluid">
 
             <input id="tab0" type="radio" name="tabs" class="no-display" checked>
-            <label for="tab0" class="label"><i class="icon-map-streamline-user" aria-hidden="true"></i> Explorador Clientes</label>
+            <label for="tab0" class="label"><i class="fa fa-envelope" aria-hidden="true"></i> Mensajeria</label>
 
-              
-            
+
+
             <!-- TAB Explorador Clientes -->
 
 
             <section id="content0" class="sectiontab">
-              
+
                 <!-- Accionista -->
                 <div class="container-fluid">
                   <div class="row">
@@ -95,21 +95,21 @@
                     <div class="row">
                     <div class="card-body col-lg-5">
                       <form class="form-horizontal">
-                                               
+
                         <div class="form-group row">
                           <div class="col-sm-12">
-                            <input type="text" placeholder="Ingrese Nombre a Buscar o ID..." class="form-control">
+                            <input type="text" placeholder="Ingrese Nombre..." class="form-control">
                           </div>
                         </div>
 
 
-                        
+
                       </form>
                     </div>
                     <div class=" card-body col-lg-4">
                       <div class="form-group row">
-                          <div class="col-sm-9"> 
-                            <input type="submit" value="Ejecutar" class="btn btn-primary">
+                          <div class="col-sm-9">
+                            <input type="submit" value="Buscar" class="btn btn-primary">
                           </div>
                         </div>
                     </div>
@@ -119,174 +119,169 @@
                 </div>
                 <!-- Accionista ENDS -->
 
-                
+
                 <!-- TABLE STARTS -->
                 <div class="col-md-12">
                    <div class="card">
-                      
+
                       <div class="row">
                         <div class="col-sm-10"></div>
                         <div class="col-sm-2 pad-top">
                           <button type="button" data-toggle="modal" data-target="#myModalClienteCrear"  class="btn btn-primary">
-                            <i class="fa fa-user-plus" aria-hidden="true"></i> Crear</button>
+                            <i class="fa fa-user-plus" aria-hidden="true"></i> Nuevo Chat</button>
                         </div>
                       </div>
-                        
-                      
+
+
                       <div class="card-body">
                          <table class="table table-striped table-sm table-hover">
                             <thead>
                                <tr>
-                                  <th>ID</th>
-                                  <th>CI / RIF</th>
-                                  <th>NOMBRE</th>
-                                  <th>MONTO ACREDITADO</th>
-                                  <th>FECHA INICIO</th>
-                                  <th>N VENTAS</th>
-                                  <th>UBICACION</th>
-                                  <th class="text-center">Accion</th>
+                                  <th class="col-sm-2">Medico</th>
+                                  <th></th>
+                                  <th class="text-center col-sm-1">Accion</th>
                                </tr>
                             </thead>
                             <tbody>
                                <tr>
-                                  <td>002</td>
-                                  <td>V-24888584</td>
-                                  <td>Lex Fdz</td>
-                                  <td>3000 $</td>
-                                  <td>14/12/2017</td>
-                                  <td>5</td>
-                                  <td>CCS, VNZLA</td>
+                                  <td >Dr. Jose Martin</td>
+
+
+
+
+
+                                  <td class="text-left" style="font-size:11px;">May the force be with you</td>
                                   <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalEmpleado">
+                                    <a href="" data-toggle="modal" data-target="#myModalChat">
                                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
                                     </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">   
+                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">
                                       <i class="fa fa-trash-o" aria-hidden="true"></i>
                                     </a>
                                   </td>
                                </tr>
                                <tr>
-                                  <td>002</td>
-                                  <td>V-24888584</td>
-                                  <td>Lex Fdz</td>
-                                  <td>3000 $</td>
-                                  <td>14/12/2017</td>
-                                  <td>5</td>
-                                  <td>CCS, VNZLA</td>
+                                  <td class="col-sm-2">Dr. Jose Martin</td>
+
+
+
+
+
+                                  <td class="text-left" style="font-size:11px;">May the force be with you</td>
                                   <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalEmpleado">
+                                    <a href="" data-toggle="modal" data-target="#myModalChat">
                                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
                                     </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">   
+                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">
                                       <i class="fa fa-trash-o" aria-hidden="true"></i>
                                     </a>
                                   </td>
                                </tr>
                                <tr>
-                                  <td>002</td>
-                                  <td>V-24888584</td>
-                                  <td>Lex Fdz</td>
-                                  <td>3000 $</td>
-                                  <td>14/12/2017</td>
-                                  <td>5</td>
-                                  <td>CCS, VNZLA</td>
+                                  <td class="col-sm-2">Dr. Jose Martin</td>
+
+
+
+
+
+                                  <td class="text-left" style="font-size:11px;">May the force be with you</td>
                                   <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalEmpleado">
+                                    <a href="" data-toggle="modal" data-target="#myModalChat">
                                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
                                     </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">   
+                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">
                                       <i class="fa fa-trash-o" aria-hidden="true"></i>
                                     </a>
                                   </td>
                                </tr>
                                <tr>
-                                  <td>002</td>
-                                  <td>V-24888584</td>
-                                  <td>Lex Fdz</td>
-                                  <td>3000 $</td>
-                                  <td>14/12/2017</td>
-                                  <td>5</td>
-                                  <td>CCS, VNZLA</td>
+                                  <td class="col-sm-2">Dr. Jose Martin</td>
+
+
+
+
+
+                                  <td class="text-left" style="font-size:11px;">May the force be with you</td>
                                   <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalEmpleado">
+                                    <a href="" data-toggle="modal" data-target="#myModalChat">
                                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
                                     </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">   
+                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">
                                       <i class="fa fa-trash-o" aria-hidden="true"></i>
                                     </a>
                                   </td>
                                </tr>
                                <tr>
-                                  <td>002</td>
-                                  <td>V-24888584</td>
-                                  <td>Lex Fdz</td>
-                                  <td>3000 $</td>
-                                  <td>14/12/2017</td>
-                                  <td>5</td>
-                                  <td>CCS, VNZLA</td>
+                                  <td class="col-sm-2">Dr. Jose Martin</td>
+
+
+
+
+
+                                  <td class="text-left" style="font-size:11px;">May the force be with you</td>
                                   <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalEmpleado">
+                                    <a href="" data-toggle="modal" data-target="#myModalChat">
                                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
                                     </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">   
+                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">
                                       <i class="fa fa-trash-o" aria-hidden="true"></i>
                                     </a>
                                   </td>
                                </tr>
                                <tr>
-                                  <td>002</td>
-                                  <td>V-24888584</td>
-                                  <td>Lex Fdz</td>
-                                  <td>3000 $</td>
-                                  <td>14/12/2017</td>
-                                  <td>5</td>
-                                  <td>CCS, VNZLA</td>
+                                  <td class="col-sm-2">Dr. Jose Martin</td>
+
+
+
+
+
+                                  <td class="text-left" style="font-size:11px;">May the force be with you</td>
                                   <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalEmpleado">
+                                    <a href="" data-toggle="modal" data-target="#myModalChat">
                                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
                                     </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">   
+                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">
                                       <i class="fa fa-trash-o" aria-hidden="true"></i>
                                     </a>
                                   </td>
                                </tr>
                                <tr>
-                                  <td>002</td>
-                                  <td>V-24888584</td>
-                                  <td>Lex Fdz</td>
-                                  <td>3000 $</td>
-                                  <td>14/12/2017</td>
-                                  <td>5</td>
-                                  <td>CCS, VNZLA</td>
+                                  <td class="col-sm-2">Dr. Jose Martin</td>
+
+
+
+
+
+                                  <td class="text-left" style="font-size:11px;">May the force be with you</td>
                                   <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalEmpleado">
+                                    <a href="" data-toggle="modal" data-target="#myModalChat">
                                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
                                     </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">   
+                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">
                                       <i class="fa fa-trash-o" aria-hidden="true"></i>
                                     </a>
                                   </td>
                                </tr>
                                <tr>
-                                  <td>002</td>
-                                  <td>V-24888584</td>
-                                  <td>Lex Fdz</td>
-                                  <td>3000 $</td>
-                                  <td>14/12/2017</td>
-                                  <td>5</td>
-                                  <td>CCS, VNZLA</td>
+                                  <td class="col-sm-2">Dr. Jose Martin</td>
+
+
+
+
+
+                                  <td class="text-left" style="font-size:11px;">May the force be with you</td>
                                   <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalEmpleado">
+                                    <a href="" data-toggle="modal" data-target="#myModalChat">
                                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
                                     </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">   
+                                    <a href="" data-toggle="modal" data-target="#myModalBorrar">
                                       <i class="fa fa-trash-o" aria-hidden="true"></i>
                                     </a>
                                   </td>
                                </tr>
                             </tbody>
                          </table>
-                         
+
                       </div>
                    </div>
                 </div>
@@ -297,11 +292,11 @@
 
 
             <!-- Modal Cliente Informacion -->
-                         <div id="myModalEmpleado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade text-left">
+                         <div id="myModalChat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade text-left">
                             <div role="document" class="modal-dialog modal-xl">
                                <div class="modal-content">
                                   <div class="modal-header">
-                                     <h4 id="exampleModalLabel" class="modal-title">INFORMACION CLIENTE</h4>
+                                     <h4 id="exampleModalLabel" class="modal-title">Chat - Dr. Jose Martin</h4>
                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
                                   </div>
                                   <div class="modal-body">
@@ -311,223 +306,50 @@
                                       <div class="row">
                                       <div class="card col-lg-12">
                                         <div class="row">
-
-                                        <!-- Columna Izquierda   -->
-                                        <div class="card-body col-lg-6">
-                                          <div class="row">
-                                            <div class="col-lg-4">
-                                              <h3>Nombre</h3>
+                                            <div class="col-sm-12 send">
+                                                <div class="row">
+                                                    <div class="col-sm-2"></div>
+                                                    <div class="col-sm-10 mensaje-envio">
+                                                        <span>Buenas Tardes</span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-10 mensaje-recepcion">
+                                                        <span>Buenas tardes, cual es su inquietud?</span>
+                                                    </div>
+                                                    <div class="col-sm-2"></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-2"></div>
+                                                    <div class="col-sm-10 mensaje-envio">
+                                                        <span>Hola Que ase</span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-2"></div>
+                                                    <div class="col-sm-10 mensaje-envio">
+                                                        <span>Hola Que ase</span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="col-lg-8">
-                                              LEX FDZ CORP. S.A.
+                                            <div class="col-sm-12 footer-send">
+                                                <form class="form-inline" action="/action_page.php">
+                                                <div class="col-sm-11 chat-input">
+                                                    <input class="form-control" type="text" name="msj" placeholder="Ingrese mensaje...">
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <button class="btn btn-primary" type="button" name="send">Enviar</button>
+                                                </div>
+                                                </form>
                                             </div>
-                                          </div>
-                                          <div class="row">
-                                            <div class="col-lg-4">
-                                              <h3>CI/RIF</h3>
-                                            </div>
-                                            <div class="col-lg-8">
-                                              J-79698576-7
-                                            </div>
-                                          </div>
-                                          <div class="row">
-                                            <div class="col-lg-4">
-                                              <h3>Direccion</h3>
-                                            </div>
-                                            <div class="col-lg-8">
-                                              Las Mercedes, Ccs, Vzla
-                                            </div>
-                                          </div>
-                                          <div class="row">
-                                            <div class="col-lg-4">
-                                              <h3>Contacto</h3>
-                                            </div>
-                                            <div class="col-lg-1">
-                                              <i class="fa fa-twitter" aria-hidden="true"></i>
-                                              <br>
-                                              <i class="fa fa-facebook" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="col-lg-7">
-                                              Isabella K. Vandendorpe <br>
-                                              Isabella K. Vandendorpe
-                                            </div>
-                                          </div>
-                                          <div class="row">
-                                            <div class="col-lg-4">
-                                              <h3>Pagina Web</h3>
-                                            </div>
-                                            <div class="col-lg-8">
-                                              <a href="" class="external">www.lexcorp.com</a>
-                                            </div>
-                                          </div>
                                         </div>
-                                        <!-- Columna izquierda ENDS -->
-
-                                        <!-- Columna derecha -->
-                                        <div class=" card-body col-lg-6">
-                                          <div class="row">
-                                            <div class="col-lg-4">
-                                              <h3>Monto Acreditado</h3>
-                                            </div>
-                                            <div class="col-lg-8">
-                                              3000 $
-                                            </div>
-                                          </div>
-                                          <div class="row">
-                                            <div class="col-lg-4">
-                                              <h3>Monto Total</h3>
-                                            </div>
-                                            <div class="col-lg-8">
-                                              3700 $
-                                            </div>
-                                          </div>
-                                          <div class="row">
-                                            <div class="col-lg-4">
-                                              <h3>Fecha Inicio</h3>
-                                            </div>
-                                            <div class="col-lg-8">
-                                              14/12/2017
-                                            </div>
-                                          </div>
-                                          <div class="row">
-                                            <div class="col-lg-4">
-                                              <h3>Nota</h3>
-                                            </div>
-                                            <div class="col-lg-8">
-                                              Comprador anticipa pagos en cada compra. <br>
-                                              Leal a la compania.
-                                            </div>
-                                          </div>
-                                        </div>
-
-                                      </div>
                                       </div>
                                     </div>
                                   </div>
 
-                                  <!-- Tabla Ventas Cliente STARTS -->
-                                  <div class="col-md-12">
-                                     <div class="card">
-                                        <div class="card-header d-flex align-items-center">
-                                           <h3 class="h4">VENTAS CLIENTE</h3>
-                                        </div>
-                                        
-                                        <div class="card-body">
-                                           <table class="table table-striped table-sm table-hover">
-                                              <thead>
-                                                 <tr>
-                                                    <th>ID</th>
-                                                    <th>FECHA VENTA</th>
-                                                    <th>AVION</th>
-                                                    <th>CANTIDAD</th>
-                                                    <th>ESTATUS</th>
-                                                    <th>PRECIO UNITARIO</th>
-                                                    <th>PRECIO TOTAL</th>
-                                                    <th class="text-center">Accion</th>
-                                                 </tr>
-                                              </thead>
-                                              <tbody>
-                                                 <tr>
-                                                    <td>152</td>
-                                                    <td>15/12/2017</td>
-                                                    <td>AU80, Standar</td>
-                                                    <td>3</td>
-                                                    <td><span class="badge badge-success">Procesandose</span></td>
-                                                    <td>1800 $</td>
-                                                    <td>5400 $</td>
-                                                    <td class="text-center">
-                                                      <a href="" data-toggle="modal" data-target="#myModalEmpleado">
-                                                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                                      </a>
-                                                      <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                                        <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                                      </a>
-                                                    </td>
-                                                 </tr>
-                                                 <tr>
-                                                    <td>152</td>
-                                                    <td>15/12/2017</td>
-                                                    <td>AU80, Standar</td>
-                                                    <td>3</td>
-                                                    <td><span class="badge badge-success">Procesandose</span></td>
-                                                    <td>1800 $</td>
-                                                    <td>5400 $</td>
-                                                    <td class="text-center">
-                                                      <a href="" data-toggle="modal" data-target="#myModalEmpleado">
-                                                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                                      </a>
-                                                      <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                                        <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                                      </a>
-                                                    </td>
-                                                 </tr>
-                                                 <tr>
-                                                    <td>152</td>
-                                                    <td>15/12/2017</td>
-                                                    <td>AU80, Standar</td>
-                                                    <td>3</td>
-                                                    <td><span class="badge badge-success">Procesandose</span></td>
-                                                    <td>1800 $</td>
-                                                    <td>5400 $</td>
-                                                    <td class="text-center">
-                                                      <a href="" data-toggle="modal" data-target="#myModalEmpleado">
-                                                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                                      </a>
-                                                      <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                                        <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                                      </a>
-                                                    </td>
-                                                 </tr>
-                                                 <tr>
-                                                    <td>152</td>
-                                                    <td>15/12/2017</td>
-                                                    <td>AU80, Standar</td>
-                                                    <td>3</td>
-                                                    <td><span class="badge badge-success">Procesandose</span></td>
-                                                    <td>1800 $</td>
-                                                    <td>5400 $</td>
-                                                    <td class="text-center">
-                                                      <a href="" data-toggle="modal" data-target="#myModalEmpleado">
-                                                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                                      </a>
-                                                      <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                                        <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                                      </a>
-                                                    </td>
-                                                 </tr>
-                                                 <tr>
-                                                    <td>152</td>
-                                                    <td>15/12/2017</td>
-                                                    <td>AU80, Standar</td>
-                                                    <td>3</td>
-                                                    <td><span class="badge badge-success">Procesandose</span></td>
-                                                    <td>1800 $</td>
-                                                    <td>5400 $</td>
-                                                    <td class="text-center">
-                                                      <a href="" data-toggle="modal" data-target="#myModalEmpleado">
-                                                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                                      </a>
-                                                      <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                                        <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                                      </a>
-                                                    </td>
-                                                 </tr>
 
-                                              </tbody>
-                                           </table>
-                                           
-                                        </div>
-                                     </div>
-                                  </div>
-                                  <!-- Tabla Ventas Cliente ENDS -->
 
-                                     
 
-                                     
-                                  </div>
-                                  <div class="modal-footer">
-                                     <button type="button" data-dismiss="modal" class="btn btn-secondary">Cerrar</button>
-                                     <button type="button" data-toggle="modal" data-target="#myModalClienteEditar" class="btn btn-primary">Editar</button>
                                   </div>
                                </div>
                             </div>
@@ -544,7 +366,7 @@
                                      <h4 id="exampleModalLabel" class="modal-title">Esta seguro que desea borrar al Cliente?</h4>
                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
                                   </div>
-                                  
+
                                   <div class="modal-footer">
                                      <button type="button" data-dismiss="modal" class="btn btn-secondary">Cancelar</button>
                                      <button type="button" class="btn btn-primary">Borrar</button>
@@ -563,7 +385,7 @@
                                      <h4 id="exampleModalLabel" class="modal-title">Esta seguro que desea borrar la Venta?</h4>
                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
                                   </div>
-                                 
+
                                   <div class="modal-footer">
                                      <button type="button" data-dismiss="modal" class="btn btn-secondary">Cancelar</button>
                                      <button type="button" class="btn btn-primary">Borrar</button>
@@ -601,7 +423,7 @@
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
                                               <h3>Fecha Inicio</h3>
-                                            </label>  
+                                            </label>
                                             <div class="col-sm-9">
                                               <input type="text" placeholder="Introduzca Fecha de Inicio" class="form-control">
                                             </div>
@@ -671,7 +493,7 @@
 
                                             </div>
                                           </div>
-                                          
+
                                         </div>
 
                                         <div class=" card-body col-lg-6">
@@ -682,7 +504,7 @@
                                             </label>
                                             <div class="col-sm-9">
                                               <input type="text" placeholder="Aqui puedes escribir..." class="form-control form-control-lg" rows="4" cols="50">
-                                              
+
                                             </div>
                                           </div>
 
@@ -692,9 +514,9 @@
                                     </div>
                                   </div>
 
-                                     
 
-                                     
+
+
                                   </div>
                                   <div class="modal-footer">
                                      <button type="button" data-dismiss="modal" class="btn btn-secondary">Cerrar</button>
@@ -734,7 +556,7 @@
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
                                               <h3>Fecha Inicio</h3>
-                                            </label>  
+                                            </label>
                                             <div class="col-sm-9">
                                               <input type="text" placeholder="Introduzca Fecha de Inicio" class="form-control">
                                             </div>
@@ -804,7 +626,7 @@
 
                                             </div>
                                           </div>
-                                          
+
                                         </div>
 
                                         <div class=" card-body col-lg-6">
@@ -815,7 +637,7 @@
                                             </label>
                                             <div class="col-sm-9">
                                               <input type="text" placeholder="Aqui puedes escribir..." class="form-control form-control-lg" rows="4" cols="50">
-                                              
+
                                             </div>
                                           </div>
 
@@ -825,9 +647,9 @@
                                     </div>
                                   </div>
 
-                                     
 
-                                     
+
+
                                   </div>
                                   <div class="modal-footer">
                                      <button type="button" data-dismiss="modal" class="btn btn-secondary">Cerrar</button>
@@ -837,8 +659,8 @@
                             </div>
                          </div>
                          <!-- Modal Cliente Crear ENDS -->
-              
-            
+
+
             </div>
           </section>
           <!-- Section de tabs ENDS -->
@@ -846,7 +668,7 @@
 
 
 
-          
+
         </div>
       </div>
       <!-- Page Footer-->
@@ -854,7 +676,7 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-6">
-                  <p>AirUCAB &copy; 2017-2018</p>
+                  <p>100% Atencion &copy; 2017-2018</p>
                 </div>
                 <div class="col-sm-6 text-right">
                   <p>Diseño por <a href="" class="external">AK</a></p>

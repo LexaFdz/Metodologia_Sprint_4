@@ -603,7 +603,7 @@ nav.side-navbar.shrinked .sidebar-header .title {
 * ==========================================================
 */
 nav.navbar {
-  background: #192039;
+  background: #002467;
   padding-top: 15px;
   padding-bottom: 15px;
   color: #fff;
@@ -1483,7 +1483,7 @@ section.dashboard-counts div[class*='col-']:last-of-type .item {
 * ==========================================================
 */
 footer.main-footer {
-  background: #192039;
+  background: #002467;
   color: #fff;
   padding: 10px;
 }

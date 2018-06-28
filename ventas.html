@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AirUCAB - Main</title>
+    <title>100%Atencion - Medicamentos</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -34,8 +34,8 @@
               <!-- Navbar Header-->
               <div class="navbar-header">
                 <!-- Navbar Brand --><a href="index.html" class="navbar-brand">
-                  <div class="brand-text brand-big"><span>Air</span><strong>UCAB</strong></div>
-                  <div class="brand-text brand-small"><strong>AU</strong></div></a>
+                  <div class="brand-text brand-big"><span>100%</span><strong>Atencion</strong></div>
+                  <div class="brand-text brand-small"><strong>100A</strong></div></a>
                 <!-- Toggle Button--><a id="toggle-btn" href="#" class="menu-btn active"><span></span><span></span><span></span></a>
               </div>
               <!-- Navbar Menu -->
@@ -55,8 +55,8 @@
           <div class="sidebar-header d-flex align-items-center">
             <div class="avatar"><img src="img/avatar-1.jpg" alt="..." class="img-fluid rounded-circle"></div>
             <div class="title">
-              <h1 class="h4">Abuelo Fdz</h1>
-              <p>Director Operaciones</p>
+              <h1 class="h4">Hulk Kellwenn</h1>
+              <p>Paciente</p>
             </div>
           </div>
           <!-- Sidebar Navidation Menus-->
@@ -65,8 +65,8 @@
             <li> <a href="clientes.html"> <i class="fa fa-address-book-o" aria-hidden="true"></i>Clientes</a></li>
             <li> <a href="proveedores.html"> <i class="fa fa-truck" aria-hidden="true"></i>Proveedores</a></li>
             <li class="active"> <a href="ventas.html"> <i class="fa fa-truck" aria-hidden="true"></i>Medicamentos </a></li>
-            <li> <a href="compras.html"> <i class="fa fa-cog" aria-hidden="true"></i>Compras </a></li>
-            <li> <a href="modeloavion.html"> <i class="fa fa-plane" aria-hidden="true"></i> Aviones </a></li>
+            <li> <a href="compras.html"> <i class="fa fa-clipboard" aria-hidden="true"></i>Diagnosticos </a></li>
+            <li> <a href="modeloavion.html"> <i class="fa fa-money" aria-hidden="true"></i> Pagos </a></li>
           </ul>
           
         </nav>
@@ -78,7 +78,7 @@
             <div class="container-fluid">
 
             <input id="tab0" type="radio" name="tabs" class="no-display" checked>
-            <label for="tab0" class="label"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Ventas</label>
+            <label for="tab0" class="label"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Medicamentos</label>
      
             
             <!-- TAB Ventas -->
@@ -92,28 +92,28 @@
                 <div class="card col-lg-12">
                   <div class="row">
                   <div class="card-body col-lg-5">
-                    <h3 class="h4">MOSTRAR SOLO VENTAS QUE</h3>
+                    <h3 class="h4">MOSTRAR SOLO MEDICAMENTOS QUE</h3>
                     <form class="form-horizontal">
                       <div class="row">
-                        <label class="col-sm-3 form-control-label">Cliente</label>
+                        <label class="col-sm-3 form-control-label">Sede</label>
                         <div class="col-sm-9 select">
                           <select name="account" class="form-control">
-                            <option>option 1</option>
-                            <option>option 2</option>
-                            <option>option 3</option>
-                            <option>option 4</option>
+                            <option>Los Ruices</option>
+                            <option>Los Ruices</option>
+                            <option>Los Ruices</option>
+                            <option>Los Ruices</option>
                           </select>
                         </div>
 
                       </div>
                       <div class="row">
-                        <label class="col-sm-3 form-control-label">Avion</label>
+                        <label class="col-sm-3 form-control-label">Categoria Medicamento</label>
                         <div class="col-sm-9 select">
                           <select name="account" class="form-control">
-                            <option>option 1</option>
-                            <option>option 2</option>
-                            <option>option 3</option>
-                            <option>option 4</option>
+                            <option>Anti-inflamatorio</option>
+                            <option>Anti-inflamatorio</option>
+                            <option>Anti-inflamatorio</option>
+                            <option>Anti-inflamatorio</option>
                           </select>
                         </div>
                       </div>
@@ -154,199 +154,121 @@
                             <thead>
                                <tr>
                                   <th>ID</th>
-                                  <th>CLIENTE</th>
-                                  <th>MODELO AVION</th>
-                                  <th>SUBMODELO</th>
-                                  <th>DISTRIBUCION</th>
-                                  <th>FECHA INICIO</th>
-                                  <th>FECHA FINAL</th>
-                                  <th>CANTIDAD</th>
+                                  <th>MEDICAMENTO</th>
+                                  <th>CATEGORIA</th>
+                                  <th>MEDIDA</th>
+                                  <th>MARCA</th>
+                                  <th>SEDE</th>
+                                  <th>CANTIDAD DISPONIBLE</th>
                                   <th>PRECIO UNITARIO</th>
-                                  <th>ESTATUS</th>
-                                  <th class="text-center">Accion</th>
+                                  <th>DISPONIBILIDAD</th>
                                </tr>
                             </thead>
                             <tbody>
                                <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>AU80</td>
-                                  <td>LW</td>
-                                  <td>Civil</td>
-                                  <td>14/12/2017</td>
-                                  <td>null</td>
-                                  <td>3</td>
-                                  <td>1800 $</td>
-                                  <td><span class="badge badge-primary">Evaluacion</span></td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalle">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
+                                  <td>187</td>
+                                  <td>Aspirina</td>
+                                  <td>Anti-inflamatorio</td>
+                                  <td>30 mg</td>
+                                  <td>BAYER</td>
+                                  <td>Los Ruices</td>
+                                  <td>25</td>
+                                  <td>500 Bs</td>
+                                  <td><span class="badge "><span class="badge badge-success font-big">DISPONIBLE</span> </span>
+                                </span></td>
+                                  
                                </tr>
                                <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>AU80</td>
-                                  <td>LW</td>
-                                  <td>Civil</td>
-                                  <td>14/12/2017</td>
-                                  <td>null</td>
-                                  <td>3</td>
-                                  <td>1800 $</td>
-                                  <td><span class="badge badge-primary">Evaluacion</span></td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalle">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>AU80</td>
-                                  <td>LW</td>
-                                  <td>Civil</td>
-                                  <td>14/12/2017</td>
-                                  <td>null</td>
-                                  <td>3</td>
-                                  <td>1800 $</td>
-                                  <td><span class="badge badge-primary">Evaluacion</span></td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalle">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>AU80</td>
-                                  <td>LW</td>
-                                  <td>Civil</td>
-                                  <td>14/12/2017</td>
-                                  <td>null</td>
-                                  <td>3</td>
-                                  <td>1800 $</td>
-                                  <td><span class="badge badge-primary">Evaluacion</span></td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalle">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>AU80</td>
-                                  <td>LW</td>
-                                  <td>Civil</td>
-                                  <td>14/12/2017</td>
-                                  <td>null</td>
-                                  <td>3</td>
-                                  <td>1800 $</td>
-                                  <td><span class="badge badge-primary">Evaluacion</span></td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalle">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>AU80</td>
-                                  <td>LW</td>
-                                  <td>Civil</td>
-                                  <td>14/12/2017</td>
-                                  <td>null</td>
-                                  <td>3</td>
-                                  <td>1800 $</td>
-                                  <td><span class="badge badge-primary">Evaluacion</span></td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalle">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>AU80</td>
-                                  <td>LW</td>
-                                  <td>Civil</td>
-                                  <td>14/12/2017</td>
-                                  <td>null</td>
-                                  <td>3</td>
-                                  <td>1800 $</td>
-                                  <td><span class="badge badge-primary">Evaluacion</span></td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalle">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>AU80</td>
-                                  <td>LW</td>
-                                  <td>Civil</td>
-                                  <td>14/12/2017</td>
-                                  <td>null</td>
-                                  <td>3</td>
-                                  <td>1800 $</td>
-                                  <td><span class="badge badge-primary">Evaluacion</span></td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalle">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
-                               <tr>
-                                  <td>002</td>
-                                  <td>Lex Fdz</td>
-                                  <td>AU80</td>
-                                  <td>LW</td>
-                                  <td>Civil</td>
-                                  <td>14/12/2017</td>
-                                  <td>null</td>
-                                  <td>3</td>
-                                  <td>1800 $</td>
-                                  <td><span class="badge badge-primary">Evaluacion</span></td>
-                                  <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#myModalDetalle">
-                                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="" data-toggle="modal" data-target="#myModalBorrarVenta">   
-                                      <i class="fa fa-trash-o" aria-hidden="true"></i>
-                                    </a>
-                                  </td>
-                               </tr>
+                                <td>187</td>
+                                <td>Aspirina</td>
+                                <td>Anti-inflamatorio</td>
+                                <td>30 mg</td>
+                                <td>BAYER</td>
+                                <td>Los Ruices</td>
+                                <td>25</td>
+                                <td>500 Bs</td>
+                                <td><span class="badge "><span class="badge badge-success font-big">DISPONIBLE</span> </span>
+                              </span></td>
+                                
+                             </tr>
+                             <tr>
+                              <td>187</td>
+                              <td>Aspirina</td>
+                              <td>Anti-inflamatorio</td>
+                              <td>30 mg</td>
+                              <td>BAYER</td>
+                              <td>Los Ruices</td>
+                              <td>25</td>
+                              <td>500 Bs</td>
+                              <td><span class="badge "><span class="badge badge-success font-big">DISPONIBLE</span> </span>
+                            </span></td>
+                              
+                           </tr>
+                           <tr>
+                            <td>187</td>
+                            <td>Aspirina</td>
+                            <td>Anti-inflamatorio</td>
+                            <td>30 mg</td>
+                            <td>BAYER</td>
+                            <td>Los Ruices</td>
+                            <td>25</td>
+                            <td>500 Bs</td>
+                            <td><span class="badge "><span class="badge badge-success font-big">DISPONIBLE</span> </span>
+                          </span></td>
+                            
+                         </tr>
+                         <tr>
+                          <td>187</td>
+                          <td>Aspirina</td>
+                          <td>Anti-inflamatorio</td>
+                          <td>30 mg</td>
+                          <td>BAYER</td>
+                          <td>Los Ruices</td>
+                          <td>25</td>
+                          <td>500 Bs</td>
+                          <td><span class="badge "><span class="badge badge-success font-big">DISPONIBLE</span> </span>
+                        </span></td>
+                          
+                       </tr>
+                       <tr>
+                        <td>187</td>
+                        <td>Aspirina</td>
+                        <td>Anti-inflamatorio</td>
+                        <td>30 mg</td>
+                        <td>BAYER</td>
+                        <td>Los Ruices</td>
+                        <td>25</td>
+                        <td>500 Bs</td>
+                        <td><span class="badge "><span class="badge badge-success font-big">DISPONIBLE</span> </span>
+                      </span></td>
+                        
+                     </tr>
+                     <tr>
+                      <td>187</td>
+                      <td>Aspirina</td>
+                      <td>Anti-inflamatorio</td>
+                      <td>30 mg</td>
+                      <td>BAYER</td>
+                      <td>Los Ruices</td>
+                      <td>25</td>
+                      <td>500 Bs</td>
+                      <td><span class="badge "><span class="badge badge-success font-big">DISPONIBLE</span> </span>
+                    </span></td>
+                      
+                   </tr>
+                   <tr>
+                    <td>187</td>
+                    <td>Aspirina</td>
+                    <td>Anti-inflamatorio</td>
+                    <td>30 mg</td>
+                    <td>BAYER</td>
+                    <td>Los Ruices</td>
+                    <td>25</td>
+                    <td>500 Bs</td>
+                    <td><span class="badge "><span class="badge badge-success font-big">DISPONIBLE</span> </span>
+                  </span></td>
+                    
+                 </tr>
                             </tbody>
                          </table>
                          
@@ -747,7 +669,7 @@
                             <div role="document" class="modal-dialog modal-xl">
                                <div class="modal-content">
                                   <div class="modal-header">
-                                     <h4 id="exampleModalLabel" class="modal-title">VENTA</h4>
+                                     <h4 id="exampleModalLabel" class="modal-title">MEDICAMENTOF</h4>
                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
                                   </div>
                                   <div class="modal-body">
@@ -761,152 +683,82 @@
 
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
-                                              <h3>Factura Venta</h3>
+                                              <h3>Nombre Medicamento</h3>
                                             </label>
                                             <div class="col-sm-9">
-                                              <input type="text" disabled="" placeholder="No modificable" class="form-control">
+                                              <input type="text" placeholder="Introduzca nombre del medicamento." class="form-control">
                                             </div>
                                           </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>ESTATUS</h3>
-                                            </label>
-                                            <!-- Traer de la tabla de Status las opciones -->
-                                            <!-- Creo que su seleccion deberia ser automatica por parte del sistema solo en este caso porque este pasa a -->
-                                            <!-- finalizado cuando los otros STATUS de cada material y cada avion comprado pasan a Finalizado -->
+                                          <div class="row">
+                                            <label class="col-sm-3 form-control-label">Categoria Medicamento</label>
                                             <div class="col-sm-9 select">
                                               <select name="account" class="form-control">
-                                                <option>En Progreso</option>
-                                                <option>Evaluacion</option>
-                                                <option>Distribucion</option>
-                                                <option>Finalizado</option>
+                                                <option>Anti-inflamatorio</option>
+                                                <option>Anti-inflamatorio</option>
+                                                <option>Anti-inflamatorio</option>
+                                                <option>Anti-inflamatorio</option>
                                               </select>
                                             </div>
                                           </div>
+                                          
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
-                                              <h3>Cliente</h3>
-                                            </label>
-                                            <!-- Traer de la tabla de clientes las opciones -->
-                                            <div class="col-sm-9 select">
-                                              <select name="account" class="form-control">
-                                                <option>Lex Fdz</option>
-                                                <option>Alexander K</option>
-                                                <option>Kevin M</option>
-                                                <option>Boris Tor</option>
-                                              </select>
-                                            </div>
-                                          </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>CI/RIF Cliente</h3>
+                                              <h3>Medida</h3>
                                             </label>  
                                             <!-- Se debe rellenar automaticamente despues de seleccionar al cliente -->
                                             <div class="col-sm-9">
-                                              <input type="text" disabled="" placeholder="No modificable" class="form-control">
+                                              <input type="text" placeholder="Introduzca la medida en mg." class="form-control">
                                             </div>
                                           </div>
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
-                                              <h3>Modelo Avion</h3>
+                                              <h3>Marca</h3>
                                             </label>
                                             <!-- Traer de la tabla de modelo avion las opciones -->
                                             <div class="col-sm-9 select">
                                               <select name="account" class="form-control">
-                                                <option>AU80</option>
-                                                <option>Au808</option>
-                                                <option>AU988</option>
+                                                <option>BAYER</option>
+                                                <option>BAYER</option>
+                                                <option>BAYER</option>
                                               </select>
                                             </div>
                                           </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>Submodelo Avion</h3>
-                                            </label>
-                                            <!-- Traer de la tabla de submodelo avion las opciones -->
-                                            <div class="col-sm-9 select">
-                                              <select name="account" class="form-control">
-                                                <option>LW</option>
-                                                <option>Standar</option>
-                                                <option>Big</option>
-                                              </select>
-                                              <span class="help-block-none"><small>Seleccionar Modelo Avion primero.</small></span>
-                                            </div>
-                                          </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>Distribucion</h3>
-                                            </label>
-                                            <!-- Traer de la tabla de distribucion avion las opciones -->
-                                            <div class="col-sm-9 select">
-                                              <select name="account" class="form-control">
-                                                <option>Civil</option>
-                                                <option>Militar</option>
-                                                <option>Empresarial</option>
-                                              </select>
-                                              <span class="help-block-none"><small>Seleccionar Modelo Avion primero.</small></span>
-                                            </div>
-                                          </div>
+                                          
                                         </div>
 
                                         <div class=" card-body col-lg-6">
 
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
-                                              <h3>Cantidad</h3>
+                                              <h3>Sede</h3>
+                                            </label>
+                                            <!-- Traer de la tabla de modelo avion las opciones -->
+                                            <div class="col-sm-9 select">
+                                              <select name="account" class="form-control">
+                                                <option>Los Ruices</option>
+                                                <option>Los Ruices</option>
+                                                <option>Los Ruices</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                          <div class="form-group row">
+                                            <label class="col-sm-3 form-control-label">
+                                              <h3>Cantidad Disponible</h3>
                                             </label>
                                             <div class="col-sm-9">
-                                              <input type="text" placeholder="Introduzca cantidad de Aviones" class="form-control">
+                                              <input type="text" placeholder="Introduzca cantidad disponible" class="form-control">
                                             </div>
                                           </div>
                                           <div class="form-group row">
                                             <label class="col-sm-3 form-control-label">
                                               <h3>Precio Unitario</h3>
                                             </label>
-                                            <div class="col-sm-9">
-                                              <input type="text" placeholder="Introduzca precio por Avion" class="form-control">
-                                            </div>
-                                          </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>Fecha Inicio</h3>
-                                            </label>
                                             <!-- Esto podemos hacerlo automatizado, que salve la fecha de creacion como fecha inicio -->
                                             <div class="col-sm-9">
-                                              <input type="text" placeholder="Introduzca Fecha Inicio" class="form-control">
+                                              <input type="text" placeholder="Introduzca Precio Unitario" class="form-control">
                                             </div>
                                           </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>Fecha Final</h3>
-                                            </label>
-                                            <!-- Esto es OBLIGATORIAMENTE AUTOMATICO cuando el STATUS cambie a finalizado -->
-                                            <div class="col-sm-9">
-                                              <input type="text" disabled="" placeholder="No modificable" class="form-control">
-                                            </div>
-                                          </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>Tipo de Pago</h3>
-                                            </label>
-                                            <div class="col-sm-9 select">
-                                              <select name="account" class="form-control">
-                                                <option>Transfencia</option>
-                                                <!-- La opcion TDC deberia expandir otros requerimientos, pero esto lo dejare para cuando implementemos el -->
-                                                <!-- hardcore de JS y PHP (2da entrega)-->
-                                                <option>TDC</option>
-                                              </select>
-                                              <span class="help-block-none"><small>Seleccionar Modelo Avion primero.</small></span>
-                                            </div>
-                                          </div>
-                                          <div class="form-group row">
-                                            <label class="col-sm-3 form-control-label">
-                                              <h3>Nota</h3>
-                                            </label>
-                                            <div class="col-sm-9">
-                                              <input type="text" placeholder="Aqui puedes escribir..." class="form-control form-control-lg" rows="4" cols="50">
-                                            </div>
-                                          </div>
+                                          
 
                                         </div>
                                       </div>
@@ -920,7 +772,7 @@
                                   </div>
                                   <div class="modal-footer">
                                      <button type="button" data-dismiss="modal" class="btn btn-secondary">Cerrar</button>
-                                     <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                                     <button type="button" class="btn btn-primary">Proceder</button>
                                   </div>
                                </div>
                             </div>
